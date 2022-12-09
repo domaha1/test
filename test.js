@@ -58,3 +58,4 @@ transactions.push({ scoops: ["Vanilla", "Vanilla"], total: 4 });
 
 const total = transactions.reduce((acc, curr) => acc + curr.total, 0);
 console.log(`You've made ${total} $ today`); // You've made 11.5 $ today
+ 

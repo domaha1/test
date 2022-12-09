@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>microsoft learn</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="red-theme">
+   <h1>Task List</h1>
+    <p id="msg">Current tasks:</p>
+    <ul>
+      <li class="list">Add visual styles</li>
+      <li class="list">Add light and dark themes</li>
+      <li>Enable switching the theme</li>
+    </ul>
+    <style>
+
+        .img-container{
+          display:flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content:space-around ;
+        }
+        .img-container img{
+          margin-left: 30px;
+          text-align: center;
+          width:400px;
+          height:250px;
+          border-radius: 20px;
+          transition: .5s;
+          
+
+        }
+        .img-container img:hover{
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+    </style>
+    <div class="img-container">
+ <img src="https://domaha.org/wp-content/uploads/2022/12/me1-1-300x300.jpg">
+ <img src="https://domaha.org/wp-content/uploads/2022/12/me2-280x300.jpg">
+ <img src="https://domaha.org/wp-content/uploads/2022/12/me3-1-300x296.jpg">
+    </div>
+   
+<div>
+  <button class="btn">Dark</button>
+</div>
+    <script src="script.js"></script>
+    <noscript>You need to enable JavaScript to view the full site.</noscript>
+</body>
+</html>
